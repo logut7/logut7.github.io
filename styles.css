@@ -50,6 +50,12 @@ font-family: 'Montserrat', sans-sans-serif;
   max-width: 1000px;
   margin: 0 auto;
 }
+#content {
+  background-color: white;
+/* border: 1px solid black;
+*/
+  min-height: calc(100vh - 376px);
+}
 
 #footer {
   background-color: #2f2f2f;
@@ -135,9 +141,4 @@ p {
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
 }
-#content {
-  background-color: white;
-/* border: 1px solid black;
-*/
-  min-height: calc(100vh - 376px);
-}
+
