@@ -675,15 +675,15 @@ background-position: bottom, bottom left, bottom right;
 }
 
 .pro-btn-link {
-  background-image: url(../img/link.png);
-  background-repeat: no-repeat;
-  left: 40%;
+  /* background-image: url(../img/link.png);
+  background-repeat: no-repeat; */
+  left: 37%;
 }
 
 .pro-btn-search {
-  background-image: url(../img/lupa.png);
-  background-repeat: no-repeat;
-  right: 40%;
+  /* background-image: url(../img/lupa.png);
+  background-repeat: no-repeat; */
+  right: 37%;
 }
 
 .pro-link:hover .pro-btn-link {
@@ -695,13 +695,31 @@ background-position: bottom, bottom left, bottom right;
 }
 
 .pro-link:hover .pro-btn-link:hover {
-  background-position: -26px 0px;
+  /* background-position: -26px 0px; */
   outline: none;
+  fill: #c7b299;
+  cursor: pointer;
 }
 
 .pro-link:hover .pro-btn-search:hover {
-  background-position: -26px 0px;
+  /* background-position: -26px 0px; */
   outline: none;
+  fill: #c7b299;
+  cursor: pointer;
+}
+
+.pro-link:active .pro-btn-link:hover {
+  /* background-position: -26px 0px; */
+  outline: none;
+  fill: #000;
+  cursor: pointer;
+}
+
+.pro-link:active .pro-btn-search:hover {
+  /* background-position: -26px 0px; */
+  outline: none;
+  fill: #000;
+  cursor: pointer;
 }
 
 .section-vedeo {
