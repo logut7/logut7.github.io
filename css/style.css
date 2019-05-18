@@ -838,6 +838,7 @@ background-position: bottom, bottom left, bottom right;
 
 .btn-video:hover .icon-video {
   fill: #c2ad96;
+  cursor: pointer;
 }
 
 .btn-video:active .icon-video {
@@ -848,16 +849,36 @@ background-position: bottom, bottom left, bottom right;
   width: 100%;
   height: 697px;
   background-color: #fbfaf8;
-  background-image: url("../img/iphone.png");
-  background-repeat: no-repeat;
-  background-position: 430px 78px;
+  /* background-position: 430px 78px; */
+  box-sizing: border-box;
 }
 
 .sec-excel-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  align-items: center;
+  background-image: url("../img/iphone.png");
+  background-repeat: no-repeat;
+  background-position: 65px 81px;
+  /* border: 1px solid red; */
+  padding: 0 0 10px 500px;
+  box-sizing: border-box;
+  /* margin: 0 0 0 100px; */
+}
+
+.sec-excel-txt {
   display: block;
-  width: 750px;
-  height: 420px;
-  border: 1px solid red;
+  width: 690px;
+  min-height: 320px;
+  /* border: 1px solid red; */
+  font-family: montserrat-light;
+  font-size: 16px;
+  color: #8c8c8c;
+  line-height: 1.5;
+  /* margin: 20px 20px 20px; */
+  box-sizing: border-box;
 }
 
 .excel-title {
@@ -865,4 +886,33 @@ background-position: bottom, bottom left, bottom right;
   font-size: 30px;
   color: #555;
   width: 100%;
+}
+
+.excel-txt {
+  margin-top: 20px;
+}
+
+.excel-list {
+  list-style: none;
+  padding: 0 0 0 100px;
+  margin-top: 40px;
+  /* position: relative; */
+}
+
+.excel-list-item {
+  position: relative;
+}
+
+.excel-list-item:before {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 1px;
+  left: -50px;
+  background-image: url(../img/excel-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
