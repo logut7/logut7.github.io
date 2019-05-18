@@ -859,13 +859,12 @@ background-position: bottom, bottom left, bottom right;
   width: 1200px;
   height: 100%;
   align-items: center;
-  background-image: url("../img/iphone.png");
+  background-image: url(../img/phone.png);
   background-repeat: no-repeat;
   background-position: 65px 81px;
   /* border: 1px solid red; */
   padding: 0 0 10px 500px;
   box-sizing: border-box;
-  /* margin: 0 0 0 100px; */
 }
 
 .sec-excel-txt {
@@ -877,7 +876,6 @@ background-position: bottom, bottom left, bottom right;
   font-size: 16px;
   color: #8c8c8c;
   line-height: 1.5;
-  /* margin: 20px 20px 20px; */
   box-sizing: border-box;
 }
 
