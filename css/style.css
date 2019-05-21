@@ -366,8 +366,8 @@ input::-webkit-input-placeholder {
 
 .section-1-top {
   background-color: #fff;
-  height: 375px;
-  padding: 80px 0 0;
+  min-height: 375px;
+  padding: 80px;
   box-sizing: border-box;
   /* border: 1px solid black; */
 }
@@ -996,10 +996,12 @@ background-position: bottom, bottom left, bottom right;
 }
 
 .posts-title {
+  display: block;
   width: 100%;
   font-size: 30px;
   font-family: raleway-semibold;
   color: #555;
+  margin-top: 20px;
 }
 
 .posts-txt {
@@ -1007,7 +1009,7 @@ background-position: bottom, bottom left, bottom right;
   font-size: 14px;
   font-family: montserrat-light;
   color: #8c8c8c;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .posts-wrap {
