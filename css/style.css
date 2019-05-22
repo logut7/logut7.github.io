@@ -361,7 +361,7 @@ input::-webkit-input-placeholder {
   background-color: #fbfaf8;
   min-width: 1232px;
   margin: 0 auto;
-  height: 1075px;
+  min-height: 375px;
 }
 
 .section-1-top {
@@ -444,18 +444,22 @@ input::-webkit-input-placeholder {
   background-color: #f1eee9;
 }
 
-.section-1-bottom {
+.section-ideas {
   background-color: #fbfaf8;
-  height: 700px;
+  min-height: 700px;
+  width: 100%;
+  }
+
+.section-1-bottom {
   display: flex;
+  padding: 70px 0 0;
+  box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
   align-content: flex-end;
-  width: 100%;
   margin: 0 auto;
-  padding: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -489,6 +493,7 @@ input::-webkit-input-placeholder {
 background-repeat: no-repeat;
 background-size: 63%;
 background-position: bottom, bottom left, bottom right;
+box-sizing: border-box;
 }
 
 .aside-wrap {
@@ -499,6 +504,7 @@ background-position: bottom, bottom left, bottom right;
   background-color: #392821;
   background: linear-gradient(to right, #211b19, #4e3427);
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .word-press-theme {
