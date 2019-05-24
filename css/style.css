@@ -999,7 +999,7 @@ box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .posts-title {
@@ -1191,4 +1191,50 @@ box-sizing: border-box;
 
 .posta:hover {
   fill: #c7b299;
+}
+
+.section-logos {
+  width: 100%;
+  height: 490px;
+  background-color: #555;
+  padding: 90px;
+  background-image: url(../img/footer-bgd.jpg);
+  box-sizing: border-box;
+}
+
+.logos {
+  width: 1150px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.logos-img {
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.logos-img01 {
+  width: 210px;
+  height: 127px;
+}
+
+.logos-img02 {
+  width: 210px;
+  height: 210px;
+}
+
+.logos-img03 {
+  width: 210px;
+  height: 130px;
+}
+
+.logos-img04 {
+  width: 210px;
+  height: 127px;
 }
