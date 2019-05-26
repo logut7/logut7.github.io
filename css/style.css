@@ -1300,6 +1300,21 @@ box-sizing: border-box;
   top: 6px;
 }
 
+.wrap-1-link:hover {
+  color: #c7b299;
+}
+
+.wrap-1-link:hover:after {
+  border-left: 5px solid #c7b299;
+}
+
+.wrap-1-link:active {
+  color: #998675;
+}
+
+.wrap-1-link:active:after {
+  border-left: 5px solid #998675;
+}
 
 .last-section-p {
   font-family: montserrat-light;
@@ -1344,6 +1359,14 @@ box-sizing: border-box;
 
 .wrap-2-link:hover {
   color: #b6a38c;
+}
+
+.wrap-2-link:active time {
+  color: #b4b0b0;
+}
+
+.wrap-2-link:active {
+  color: #998675;
 }
 
 .last-section-txt {
