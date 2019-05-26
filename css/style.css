@@ -1390,7 +1390,7 @@ box-sizing: border-box;
 }
 
 .last-section-images-wrap {
-  height: 206px;
+  height: 210px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
