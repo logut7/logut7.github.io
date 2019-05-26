@@ -1394,18 +1394,7 @@ box-sizing: border-box;
   width: 130px;
   height: 100px;
   background-color: #555;
-  /* margin: 5px; */
 }
-
-/* .last-section > div > div:nth-child(4) > img:nth-child(3),
-.last-section > div > div:nth-child(4) > img:nth-child(5) {
-  margin-left: 6px;
-  background-color: #555;
-} */
-
-/* .last-section > div > div:nth-child(4) > img:nth-child(4) {
-  margin-top: 6px;
-} */
 
 .wrap-4 {
   width: 270px;
@@ -1419,4 +1408,12 @@ box-sizing: border-box;
   justify-content: space-between;
   align-content: space-between;
   /* border: 1px solid red; */
+}
+
+.main-footer {
+  width: 100%;
+  height: 110px;
+  background-color: #111;
+  padding: 40px;
+  box-sizing: border-box;
 }
