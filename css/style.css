@@ -1564,6 +1564,7 @@ box-sizing: border-box;
   }
 
   .ideas-txt-p {
+    width: 70%;
     margin: 10px 0 15px;
   }
 
@@ -1671,7 +1672,7 @@ box-sizing: border-box;
   .section-1-top {
     background-color: #fff;
     min-height: 375px;
-    padding: 5px;
+    padding: 10px 10px 30px 10px;
     box-sizing: border-box;
     /* border: 1px solid black; */
   }
