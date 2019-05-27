@@ -295,7 +295,7 @@ input::-webkit-input-placeholder {
   cursor: pointer;
 }
 
-.text:after {
+.text::after {
   content: " ";
   display: block;
   width: 49px;
@@ -309,7 +309,7 @@ input::-webkit-input-placeholder {
   background-position: center;
 }
 
-.text:hover:after {
+.text:hover::after {
   right: -552px;
   cursor: pointer;
 }
@@ -399,7 +399,7 @@ input::-webkit-input-placeholder {
   color: #c7b299;
 }
 
-.serv-link:hover:after {
+.serv-link:hover::after {
   background-color: #c7b299;
 }
 
@@ -411,7 +411,7 @@ input::-webkit-input-placeholder {
   color: #564938;
 }
 
-.serv-link:active:after {
+.serv-link:active::after {
   background-color: #564938;
 }
 
@@ -435,7 +435,7 @@ input::-webkit-input-placeholder {
   border: 1px solid transparent;
 }
 
-.serv-link:after {
+.serv-link::after {
   content: "";
   display: block;
   margin-top: 25px;
@@ -983,7 +983,7 @@ box-sizing: border-box;
   width: 100%;
 }
 
-.stat-item:after {
+.stat-item::after {
   content: "";
   display: block;
   width: 30px;
@@ -1081,7 +1081,7 @@ box-sizing: border-box;
   text-decoration: none;
 }
 
-.item-link:after {
+.item-link::after {
   content: "";
   display: block;
   position: absolute;
@@ -1160,7 +1160,7 @@ box-sizing: border-box;
   color: #fff;
 }
 
-.item-link:hover:after {
+.item-link:hover::after {
   border-left: 5px solid #fff;
 }
 
@@ -1168,7 +1168,7 @@ box-sizing: border-box;
   color: #777;
 }
 
-.item-link:active:after {
+.item-link:active::after {
   border-left: 5px solid #777;
 }
 
@@ -1290,7 +1290,7 @@ box-sizing: border-box;
   text-decoration: none;
 }
 
-.wrap-1-link:after {
+.wrap-1-link::after {
   content: "";
   display: block;
   position: absolute;
@@ -1304,7 +1304,7 @@ box-sizing: border-box;
   color: #c7b299;
 }
 
-.wrap-1-link:hover:after {
+.wrap-1-link:hover::after {
   border-left: 5px solid #c7b299;
 }
 
@@ -1312,7 +1312,7 @@ box-sizing: border-box;
   color: #998675;
 }
 
-.wrap-1-link:active:after {
+.wrap-1-link:active::after {
   border-left: 5px solid #998675;
 }
 
@@ -1474,7 +1474,7 @@ box-sizing: border-box;
   padding: 0;
 }
 
-.footer-list-item:before {
+.footer-list-item::before {
   position: absolute;
   content: "";
   display: block;
@@ -1495,4 +1495,23 @@ box-sizing: border-box;
 
 .footer-logo1 {
   color: #c7b299;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer-link:hover {
+  color: #c7b299;
+}
+
+.footer-link:active {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .aside-wrap {
+    display: none;
+  }
 }
