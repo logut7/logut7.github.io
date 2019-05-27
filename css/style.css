@@ -1209,6 +1209,7 @@ box-sizing: border-box;
   background-color: #555;
   padding: 90px;
   background-image: url(../img/footer-bgd.jpg);
+  background-repeat: no-repeat;
   box-sizing: border-box;
 }
 
@@ -1618,7 +1619,8 @@ box-sizing: border-box;
 
   .section-logos {
     padding: 10px;
-    height: 180px;
+    height: 230px;
+    background-size: cover;
   }
 
   .logos {
@@ -1816,6 +1818,7 @@ box-sizing: border-box;
   .section-logos {
     padding: 10px;
     height: 180px;
+    background-size: cover;
   }
 
   .logos {
