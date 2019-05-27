@@ -1654,7 +1654,6 @@ box-sizing: border-box;
   .section-white2,
   .multi-txt-p,
   .last-section,
-  .sec-excel,
   .post-btn-wrap {
     display: none;
  }
@@ -1755,6 +1754,33 @@ box-sizing: border-box;
 
   .vid {
     object-fit: cover;
+  }
+
+  .sec-excel {
+    height: 600px;
+  }
+
+  .sec-excel-wrap {
+    width: 100%;
+    background-position: 14px 251px;
+    background-size: 40%;
+    /* border: 1px solid red; */
+    padding: 30px 15px 10px 15px;
+    align-items: flex-start;
+}
+
+  .excel-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .excel-list {
+    padding: 0 0 0 250px;
+  }
+
+  .excel-list-item:before {
+    left: -36px;
   }
 
   .section-stat {
