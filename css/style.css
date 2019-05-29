@@ -1737,7 +1737,7 @@ box-sizing: border-box;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   /* .section-white2, */
   .multi-txt-p,
   .last-section,
@@ -1753,7 +1753,7 @@ box-sizing: border-box;
   }
 
   .container {
-    width: 600px;
+    width: 576px;
   }
 
   .main-header {
