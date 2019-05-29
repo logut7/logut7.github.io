@@ -1736,14 +1736,14 @@ box-sizing: border-box;
  .navigation {
    position: fixed;
    justify-content: flex-end;
-   padding: 0 18px;
+   padding: 0 16px;
    top: 0;
    /* background-color: #372f2d; */
-   left: 86%;
+   left: 85%;
    right: 0;
    /* height: 50px; было */
    height: 100px;
-   z-index: 10;
+   z-index: 1;
    width: 13%;
    box-sizing: border-box;
  }
@@ -1761,9 +1761,10 @@ box-sizing: border-box;
    height: 40px;
    cursor: pointer;
    transition: .4s;
-   z-index: 101;
+   z-index: 30;
    filter: drop-shadow(1px 1px 2px #412d23)
  }
+
  .menu-icon {
    display: block;
    position: relative;
@@ -1797,7 +1798,7 @@ box-sizing: border-box;
    top: 0;
    left: 0;
    right: 0;
-   z-index: 100;
+   z-index: 10;
    height: 0;
    opacity: 1;
    transition: .5s;
