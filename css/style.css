@@ -1737,7 +1737,7 @@ box-sizing: border-box;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599.98px) {
   /* .section-white2, */
   .multi-txt-p,
   .last-section,
@@ -1753,7 +1753,7 @@ box-sizing: border-box;
   }
 
   .container {
-    width: 100%;
+    width: 599.98px;
   }
 
   .main-header {
