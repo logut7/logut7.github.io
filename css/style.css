@@ -1404,7 +1404,7 @@ box-sizing: border-box;
   font-size: 12px;
 }
 
-.wrap-2-link:hover time {
+.wrap-2-link:hover span {
   color: #fff;
 }
 
@@ -1412,7 +1412,7 @@ box-sizing: border-box;
   color: #b6a38c;
 }
 
-.wrap-2-link:active time {
+.wrap-2-link:active span {
   color: #b4b0b0;
 }
 
