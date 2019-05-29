@@ -287,42 +287,57 @@ input::-webkit-input-placeholder {
   box-sizing: border-box;
 }
 
-.text:before {
-  content: "";
+.text::before {
+  content: " ";
   display: block;
-  width: 49px;
-  height: 73px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: -15px;
   left: -550px;
-  background-size: contain;
-  background-image: url(../img/left.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 2px solid transparent;
+  border-left-color: #a2a19f;
+  border-bottom-color: #a2a19f;
+  transform: rotate(45deg);
 }
 
-.text:hover:before {
-  left: -552px;
+.text:hover::before {
+  /* left: -552px; */
   cursor: pointer;
+  border-left-color: #d3c1ad;
+  border-bottom-color: #d3c1ad;
+}
+
+ .text:active:before {
+  border-left-color: #555;
+  border-bottom-color: #555;
 }
 
 .text::after {
   content: " ";
   display: block;
-  width: 49px;
-  height: 73px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: -15px;
   right: -550px;
-  background-size: contain;
-  background-image: url(../img/right.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 2px solid transparent;
+  border-right-color: #a2a19f;
+  border-bottom-color: #a2a19f;
+  transform: rotate(-45deg);
+
 }
 
 .text:hover::after {
-  right: -552px;
   cursor: pointer;
+  border-right-color: #d3c1ad;
+  border-bottom-color: #d3c1ad;
+}
+
+.text:active::after {
+  cursor: pointer;
+  border-right-color: #555;
+  border-bottom-color: #555;
 }
 
 .botton-link-wrap {
