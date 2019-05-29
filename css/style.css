@@ -1736,7 +1736,7 @@ box-sizing: border-box;
  .navigation {
    position: fixed;
    justify-content: flex-end;
-   padding: 0 16px;
+   padding: 0 30px;
    top: 0;
    /* background-color: #372f2d; */
    left: 0;
