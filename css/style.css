@@ -1992,6 +1992,10 @@ box-sizing: border-box;
     margin: 25px auto;
 }
 
+.prj-link {
+  padding: 7px 10px;
+  }
+
 .pro-link-wrap > div:nth-child(2),
 .pro-link-wrap > div:nth-child(3),
 .pro-link-wrap > div:nth-child(6) {
