@@ -1630,7 +1630,7 @@ input::-webkit-input-placeholder {
 
 }
 
-@media (max-width: 599.98px) {
+@media (max-width: 575.98px) {
   /* .projects, */
   .aside-wrap-content p,
   .last-section,
@@ -1707,6 +1707,7 @@ input::-webkit-input-placeholder {
    height: 4px;
    transition: .4s;
  }
+
  .menu-icon::after, .menu-icon::before {
    content: "";
    display: block;
@@ -1716,12 +1717,14 @@ input::-webkit-input-placeholder {
    height: 4px;
    transition: .4s;
  }
+
  .menu-icon::after {
    top: 8px;
  }
  .menu-icon::before {
    top: -8px;
  }
+
  .menu-wrap {
    position: fixed;
    text-align: center;
@@ -1741,6 +1744,7 @@ input::-webkit-input-placeholder {
    opacity: 0,7;
    background-color: #372f2d;
  }
+
  .menu-list {
    display: block;
    transition: .5s;
@@ -1785,9 +1789,10 @@ input::-webkit-input-placeholder {
    -webkit-transform: rotate(45deg);
  }
 
-
   .web-app {
     padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .web-app a {
@@ -1881,7 +1886,7 @@ input::-webkit-input-placeholder {
 
   .sec-excel-wrap {
     width: 100%;
-    background-position: 14px 251px;
+    background-position: 14px 266px;
     background-size: 40%;
     /* border: 1px solid red; */
     padding: 30px 15px 10px 15px;
@@ -1932,15 +1937,10 @@ input::-webkit-input-placeholder {
     width: 80%;
   }
 
-  .section-logos {
+  .logos {
+    width: 100%;
     padding: 10px;
     height: 180px;
-    background-size: cover;
-  }
-
-  .logos {
-    width: 67%;
-    height: 100%;
   }
 
   .logos-img01,
@@ -1951,11 +1951,9 @@ input::-webkit-input-placeholder {
   }
 
   .main-footer {
-    padding: 20px;
-    width: 80%;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 auto;
   }
 
   .footer-list {
