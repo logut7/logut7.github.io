@@ -1737,7 +1737,11 @@ box-sizing: border-box;
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 400px) and (max-width: 599.98px) {
+=======
+@media (max-width: 600px) {
+>>>>>>> parent of 09728ba... Update style.css
   /* .section-white2, */
   .multi-txt-p,
   .last-section,
@@ -1753,7 +1757,7 @@ box-sizing: border-box;
   }
 
   .container {
-    width: 599.98px;
+    width: 100%;
   }
 
   .main-header {
