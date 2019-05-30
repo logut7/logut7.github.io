@@ -1961,12 +1961,3 @@ input::-webkit-input-placeholder {
   }
 
 }
-
-@media (max-width: 320px) {
-  .web-app a {
-    min-width: 300px;
-  }
-
-}
-
-}
