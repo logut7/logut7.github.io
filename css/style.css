@@ -1540,7 +1540,7 @@ box-sizing: border-box;
 
 @media (max-width: 1100.98px) {
   .container {
-    width: 100%;
+    width: 1100.98px;
  }
 
  .main-header {
@@ -1737,11 +1737,8 @@ box-sizing: border-box;
   }
 }
 
-<<<<<<< HEAD
-@media (min-width: 400px) and (max-width: 599.98px) {
-=======
-@media (max-width: 600px) {
->>>>>>> parent of 09728ba... Update style.css
+
+@media (max-width: 599.98px) {
   /* .section-white2, */
   .multi-txt-p,
   .last-section,
@@ -1757,7 +1754,7 @@ box-sizing: border-box;
   }
 
   .container {
-    width: 100%;
+    max-width: 599.98px;
   }
 
   .main-header {
@@ -1908,7 +1905,7 @@ box-sizing: border-box;
   .section-1-top {
     background-color: #fff;
     min-height: 375px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 5px 30px 5px;
     box-sizing: border-box;
     /* border: 1px solid black; */
   }
@@ -2104,5 +2101,16 @@ box-sizing: border-box;
   .footer-list {
     padding: 15px;
   }
+
+}
+
+@media (max-width: 320px) {
+  .serv-link {
+    width: 300px;
+  }
+.section-1-top-inside {
+  justify-content: center;
+  }  
+}
 
 }
