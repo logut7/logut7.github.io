@@ -1525,7 +1525,7 @@ input::-webkit-input-placeholder {
 
  .header-bottom {
    padding: 13% 0 30px 0;
-   width: 70%;
+   width: 100%;
  }
 
  .navigation {
@@ -1542,7 +1542,7 @@ input::-webkit-input-placeholder {
   }
 
   .web-app {
-    padding: 60px 10%;
+    padding: 60px 5%;
   }
 
   .web-app a {
@@ -1666,10 +1666,21 @@ input::-webkit-input-placeholder {
 
 @media (max-width: 899.98px) {
   .botton-link-wrap,
+  .menu-list,
   .btn-search,
   .nav-link-basket {
     display: none;
   }
+
+  .web-app {
+    padding: 60px 2%;
+    flex-wrap: wrap;
+  }
+
+  .web-app a {
+    min-height: 100%;
+  }
+
 }
 
 @media (max-width: 575.98px) {
