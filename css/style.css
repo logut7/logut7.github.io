@@ -2064,7 +2064,7 @@ input::-webkit-input-placeholder {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 410px) {
   .pro-link-wrap {
     display: none;
   }
