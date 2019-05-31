@@ -1722,7 +1722,6 @@ input::-webkit-input-placeholder {
 }
 
 @media (max-width: 575.98px) {
-  /* .projects, */
   .aside-wrap-content p,
   .last-section,
   .post-btn-wrap,
@@ -1732,13 +1731,14 @@ input::-webkit-input-placeholder {
   .header-bottom,
   .botton-link-wrap,
   .btn-search,
-  .nav-link-basket
-  .video-wrap span {
+  .nav-link-basket,
+  .video-wrap > time,
+  .video-wrap > span {
     display: none;
   }
 
-  .video-wrap time {
-    display: none;
+  .menu-list {
+    visibility: visible;
   }
 
   .container {
@@ -2008,7 +2008,12 @@ input::-webkit-input-placeholder {
   }
 
   .stat-item span:first-of-type {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .stat-item > span:last-child {
+    font-weight: 300;
+    font-size: 12px;
   }
 
   .stat-txt {
@@ -2048,6 +2053,42 @@ input::-webkit-input-placeholder {
 
   .footer-list {
     padding: 15px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .pro-link-wrap {
+    display: none;
+  }
+
+  .navigation {
+    padding: 0 10px;
+    left: 85%;
+  }
+
+  .projects {
+    min-width: 360px;
+  }
+
+  .sec-excel-wrap {
+    padding: 30px 15px 10px 15px;
+    align-items: flex-start;
+    background-image: unset;
+  }
+
+  .excel-list {
+    padding: 0 0 0 50px;
+  }
+
+  .stat-item span:first-of-type {
+    font-size: 24px;
+    margin: 2px;
+  }
+
+
+  .stat-item > span:last-child {
+    font-size: 10px;
   }
 
 }
