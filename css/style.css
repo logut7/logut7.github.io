@@ -1516,10 +1516,7 @@ input::-webkit-input-placeholder {
   }
 
  .header-top {
-   display: flex;
-   /* border: 1px solid aqua; */
    width: 90%;
-   /* height: 64px; */
    padding: 40px 30px 0;
  }
 
@@ -1546,7 +1543,6 @@ input::-webkit-input-placeholder {
   }
 
   .web-app a {
-    display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     text-decoration: none;
@@ -1665,8 +1661,10 @@ input::-webkit-input-placeholder {
 }
 
 @media (max-width: 899.98px) {
-  .botton-link-wrap,
-  .menu-list,
+  .menu-list {
+    visibility: hidden;
+  }
+
   .btn-search,
   .nav-link-basket {
     display: none;
@@ -1681,7 +1679,18 @@ input::-webkit-input-placeholder {
     min-height: 100%;
   }
 
+  .projects {
+      min-width: 575px;
+  }
+
+  .prj-link-wrap a {
+      display: block;
+  }
+
+
 }
+
+
 
 @media (max-width: 575.98px) {
   /* .projects, */
@@ -1703,17 +1712,14 @@ input::-webkit-input-placeholder {
   }
 
   .main-header {
-    /* min-width: 100%; */
     height: 100px;
-    width: 100%;
-     /* border: 1px solid purple; */
   }
 
   .header-top {
-      padding: 20px;
-      margin: 0;
-      display: block;
-      height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
   }
 
  .navigation {
@@ -1744,8 +1750,8 @@ input::-webkit-input-placeholder {
    height: 40px;
    cursor: pointer;
    transition: .4s;
-   z-index: 30;
-   filter: drop-shadow(1px 1px 2px #412d23)
+   z-index: 20;
+   filter: drop-shadow(1px 1px 2px #412d23);
  }
 
  .menu-icon {
@@ -1777,8 +1783,6 @@ input::-webkit-input-placeholder {
  .menu-wrap {
    position: fixed;
    text-align: center;
-   display: flex;
-   align-items: center;
    justify-content: center;
    width: 100%;
    top: 0;
@@ -1849,14 +1853,11 @@ input::-webkit-input-placeholder {
   }
 
   .web-app a {
-    display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     /* justify-content: center; */
-    text-decoration: none;
     color: #555;
-    text-align: center;
-    /* border: 1px solid red; */
+    /* text-align: center; */
     width: 240px;
     height: 230px;
     margin: 10px 0 10px 0;
@@ -1881,12 +1882,6 @@ input::-webkit-input-placeholder {
   .section-ideas p {
     width: 90%;
     margin: 5px 0 15px;
-  }
-
-  .ideas-images {
-    height: 380px;
-    background-image: url(../img/browser-center.jpg);
-    background-size: 100%;
   }
 
   .aside-wrap {
@@ -1921,7 +1916,7 @@ input::-webkit-input-placeholder {
 
 .prj-link-wrap a {
   padding: 7px 10px;
-  }
+}
 
 .pro-link-wrap > div:nth-child(2),
 .pro-link-wrap > div:nth-child(3),
