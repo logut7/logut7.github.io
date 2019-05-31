@@ -1520,7 +1520,11 @@ input::-webkit-input-placeholder {
     height: 100%;
     text-align: center;
     padding: 60px 0;
-
+  }
+  .sec-excel-wrap {
+    background-position: -7px bottom;
+    padding: 0 0 10px 356px;
+  }
 }
 
 @media (max-width: 1399.98px) {
@@ -1540,10 +1544,8 @@ input::-webkit-input-placeholder {
  }
 
  .main-header {
-   /* min-width: 800px; */
    height: 900px;
    width: 100%;
-   /* border: 1px solid purple; */
   }
 
  .header-top {
@@ -1573,7 +1575,6 @@ input::-webkit-input-placeholder {
     align-content: flex-end;
     text-decoration: none;
     text-align: center;
-    /* border: 1px solid red; */
     height: 230px;
     margin: 15px auto;
   }
@@ -1623,7 +1624,6 @@ input::-webkit-input-placeholder {
   .sec-excel-wrap {
     width: 100%;
     background-position: 30px bottom;
-    /* border: 1px solid red; */
     padding: 0 0 10px 320px;
 }
 
@@ -1656,7 +1656,6 @@ input::-webkit-input-placeholder {
   }
 
   .logos {
-    width: 100%;
     height: 100%;
   }
 
@@ -1721,6 +1720,15 @@ input::-webkit-input-placeholder {
 
 }
 
+@media (max-width: 768.98px) {
+  .sec-excel-wrap {
+    width: 100%;
+    background-position: 30px bottom;
+    padding: 0px 0 10px 285px;
+    background-size: 40%;
+  }
+}
+
 @media (max-width: 575.98px) {
   .aside-wrap-content p,
   .last-section,
@@ -1760,12 +1768,9 @@ input::-webkit-input-placeholder {
  .navigation {
    position: fixed;
    justify-content: flex-end;
-   /* padding: 0 16px; */
    top: 0;
-   /* background-color: #372f2d; */
    left: 83%;
    right: 0;
-   /* height: 50px; было */
    height: 100px;
    z-index: 10;
    width: 13%;
@@ -2038,7 +2043,6 @@ input::-webkit-input-placeholder {
   }
 
   .logos {
-    width: 100%;
     padding: 10px;
     height: 180px;
   }
@@ -2060,7 +2064,7 @@ input::-webkit-input-placeholder {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .pro-link-wrap {
     display: none;
   }
