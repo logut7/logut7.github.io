@@ -42,7 +42,8 @@ font-weight: 300;
 }
 
 .container {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   /* border: 1px solid red; */
   margin: 0 auto;
   /* background-color: grey; */
@@ -52,7 +53,7 @@ font-weight: 300;
   /* min-width: 1232px; */
   height: 1024px;
   /* border: 1px solid purple; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: #555556;
   background-image: url(../img/mountain_black.png);
   background-repeat: no-repeat;
@@ -229,8 +230,8 @@ input::-webkit-input-placeholder {
 }
 
 .btn-search:focus {
-	width: 150px;
-	/* padding-left: 12px; */
+	width: 130px;
+	padding-left: 5px;
 	color: #c7b299;
 	background-color: grey;
 	cursor: auto;
@@ -245,10 +246,10 @@ input::-webkit-input-placeholder {
   display: flex;
   flex-direction: column;
   /* width: 1232px; */
-  width: 64%;
+  width: 100%;
   /* border: 1px solid red; */
-  margin: 0 auto;
-  padding: 270px 0 40px 0;
+  /* margin: 0 auto; */
+  padding: 15% 0 40px 0;
   justify-content: center;
   align-items: center;
 }
@@ -339,7 +340,7 @@ input::-webkit-input-placeholder {
   /* border: 1px solid red; */
   width: 150px;
   height: 20px;
-  margin-top: 24.5%;
+  margin-top: 16.5%;
   box-sizing: border-box;
   text-align: center;
 }
@@ -764,9 +765,10 @@ input::-webkit-input-placeholder {
 }
 
 .vid {
-  max-width: 1920px;
-  width: 100%;
-  height: 705px;
+  display: block;
+  /* max-width: 1920px; */
+  /* width: 100%; */
+  height: 100%;
   filter: brightness(40%);
 }
 
@@ -778,7 +780,7 @@ input::-webkit-input-placeholder {
   /* align-content: center; */
   text-align: center;
   margin: 0 auto;
-  width: 590px;
+  width: 30%;
   min-height: 320px;
   position: absolute;
   top: 240px;
@@ -844,7 +846,7 @@ input::-webkit-input-placeholder {
 .sec-excel-wrap {
   display: flex;
   margin: 0 auto;
-  width: 1200px;
+  width: 61%;
   height: 100%;
   align-items: center;
   background-image: url(../img/phone.png);
@@ -1624,7 +1626,6 @@ input::-webkit-input-placeholder {
 
   .main-footer {
     padding: 20px;
-    width: 100%;
     justify-content: space-around;
   }
 
@@ -1944,7 +1945,6 @@ input::-webkit-input-placeholder {
   }
 
   .main-footer {
-    width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
   }
