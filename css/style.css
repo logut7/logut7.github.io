@@ -1574,6 +1574,10 @@ input::-webkit-input-placeholder {
     left: 25%;
   }
 
+  .video-wrap p {
+    display: none;
+  }
+
   .vid {
     object-fit: cover;
     width: 100%
