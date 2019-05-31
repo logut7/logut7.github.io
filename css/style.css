@@ -876,7 +876,7 @@ input::-webkit-input-placeholder {
   align-items: center;
   background-image: url(../img/phone.png);
   background-repeat: no-repeat;
-  background-position: 65px 81px;
+  background-position: 65px bottom;
   /* border: 1px solid red; */
   padding: 0 0 10px 500px;
   box-sizing: border-box;
@@ -1622,7 +1622,7 @@ input::-webkit-input-placeholder {
 
   .sec-excel-wrap {
     width: 100%;
-    background-position: 30px 81px;
+    background-position: 30px bottom;
     /* border: 1px solid red; */
     padding: 0 0 10px 320px;
 }
@@ -1760,10 +1760,10 @@ input::-webkit-input-placeholder {
  .navigation {
    position: fixed;
    justify-content: flex-end;
-   padding: 0 16px;
+   /* padding: 0 16px; */
    top: 0;
    /* background-color: #372f2d; */
-   left: 85%;
+   left: 83%;
    right: 0;
    /* height: 50px; было */
    height: 100px;
@@ -1904,7 +1904,7 @@ input::-webkit-input-placeholder {
 
   .section-ideas {
     padding: 5px 0 0;
-    min-height: 476px;
+    min-height: 500px;
     width: 100%;
     padding: 4% 0 0;
       /* border: 1px solid red; */
@@ -1928,7 +1928,7 @@ input::-webkit-input-placeholder {
     width: 100%;
     margin: 0 auto;
     /* border: 1px solid red; */
-}
+  }
 
   .aside-txt {
     text-align: center;
@@ -1940,24 +1940,24 @@ input::-webkit-input-placeholder {
 
   .projects {
     min-width: 400px;
-    padding: 30px 5px;
- }
+    padding: 30px 5px 20px;
+  }
 
  .projects > p {
     width: 90%;
     margin: 25px auto;
-}
+  }
 
-.prj-link-wrap {
-  flex-direction: column;
-  padding: 7px 10px;
-}
+  .prj-link-wrap {
+    flex-direction: column;
+    padding: 7px 10px;
+  }
 
-.pro-link-wrap > div:nth-child(2),
-.pro-link-wrap > div:nth-child(3),
-.pro-link-wrap > div:nth-child(6) {
-  display: none;
-}
+  .pro-link-wrap > div:nth-child(2),
+  .pro-link-wrap > div:nth-child(3),
+  .pro-link-wrap > div:nth-child(6) {
+    display: none;
+  }
 
   .video-wrap {
     width: 50%;
@@ -1973,12 +1973,12 @@ input::-webkit-input-placeholder {
 
   .sec-excel-wrap {
     width: 100%;
-    background-position: 14px 276px;
+    background-position: 14px bottom;
     background-size: 40%;
     /* border: 1px solid red; */
     padding: 30px 15px 10px 15px;
     align-items: flex-start;
-}
+  }
 
   .excel-title {
     display: block;
@@ -2001,10 +2001,14 @@ input::-webkit-input-placeholder {
   .section-stat {
     padding: 0;
     height: 200px;
+    min-height: 700px;
   }
 
   .stat-wrap {
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
   }
 
   .stat-item span:first-of-type {
@@ -2054,7 +2058,6 @@ input::-webkit-input-placeholder {
   .footer-list {
     padding: 15px;
   }
-
 }
 
 @media (max-width: 400px) {
@@ -2062,13 +2065,8 @@ input::-webkit-input-placeholder {
     display: none;
   }
 
-  .navigation {
-    padding: 0 10px;
-    left: 85%;
-  }
-
   .projects {
-    min-width: 360px;
+    min-width: 320px;
   }
 
   .sec-excel-wrap {
@@ -2081,14 +2079,29 @@ input::-webkit-input-placeholder {
     padding: 0 0 0 50px;
   }
 
+  .section-stat {
+    min-height: 700px;
+    padding: 5px;
+  }
+
+  .stat-wrap {
+    width: min-content;
+  }
+
   .stat-item span:first-of-type {
-    font-size: 24px;
-    margin: 2px;
+    margin: 10px;
   }
 
 
   .stat-item > span:last-child {
-    font-size: 10px;
+    font-size: 16px;
   }
 
+  .stat-item {
+    margin: 5px;
+  }
+
+  .stat-item::after {
+    width: 40%;
+  }
 }
