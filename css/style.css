@@ -771,6 +771,7 @@ input::-webkit-input-placeholder {
   height: 705px;
   background-color: #828384;
   position: relative;
+  object-fit: contain;
 }
 
 .vid {
@@ -1575,6 +1576,7 @@ input::-webkit-input-placeholder {
 
   .vid {
     object-fit: cover;
+    width: 100%
   }
 
   .sec-excel-wrap {
