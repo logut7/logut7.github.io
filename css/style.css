@@ -1664,6 +1664,14 @@ input::-webkit-input-placeholder {
 
 }
 
+@media (max-width: 899.98px) {
+  .botton-link-wrap,
+  .btn-search,
+  .nav-link-basket {
+    display: none;
+  }
+}
+
 @media (max-width: 575.98px) {
   /* .projects, */
   .aside-wrap-content p,
