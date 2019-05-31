@@ -901,6 +901,7 @@ input::-webkit-input-placeholder {
 
 .excel-txt {
   margin-top: 20px;
+  line-height: 28px;
 }
 
 .excel-list {
@@ -912,6 +913,7 @@ input::-webkit-input-placeholder {
 
 .excel-list li {
   position: relative;
+  line-height: 32px;
 }
 
 .excel-list li:before {
