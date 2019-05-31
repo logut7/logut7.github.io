@@ -1691,8 +1691,11 @@ input::-webkit-input-placeholder {
   }
 
   .header-top {
-     padding: 20px 0;
-   }
+      padding: 20px;
+      margin: 0;
+      display: block;
+      height: 100%;
+  }
 
  .navigation {
    position: fixed;
@@ -1789,6 +1792,10 @@ input::-webkit-input-placeholder {
    color: #fff;
  }
 
+ .menu-list li {
+   margin: 10px;
+ }
+
  .menu-checkbox {
    display: none;
  }
@@ -1831,21 +1838,26 @@ input::-webkit-input-placeholder {
     color: #555;
     text-align: center;
     /* border: 1px solid red; */
-    width: 290px;
+    width: 240px;
     height: 230px;
-    margin: 5px 0 10px 0;
-  }
-
-  .section-ideas {
-    padding: 5px 0 0;
-    height: 550px;
-    min-height: 370px;
+    margin: 10px 0 10px 0;
   }
 
   .section-1-bottom {
     height: 546px;
     min-height: 200px;
   }
+
+  .section-ideas {
+    padding: 5px 0 0;
+    min-height: 476px;
+    width: 100%;
+    padding: 4% 0 0;
+      /* border: 1px solid red; */
+    background-image: url(../img/browser-center.jpg);
+    background-size: 100%;
+    background-position: 50% 101%;
+    }
 
   .section-ideas p {
     width: 90%;
@@ -1884,7 +1896,7 @@ input::-webkit-input-placeholder {
  }
 
  .projects > p {
-    width: 81%;
+    width: 90%;
     margin: 25px auto;
 }
 
@@ -1908,12 +1920,12 @@ input::-webkit-input-placeholder {
   }
 
   .sec-excel {
-    height: 600px;
+    height: 100%;
   }
 
   .sec-excel-wrap {
     width: 100%;
-    background-position: 14px 266px;
+    background-position: 14px 276px;
     background-size: 40%;
     /* border: 1px solid red; */
     padding: 30px 15px 10px 15px;
@@ -1927,7 +1939,11 @@ input::-webkit-input-placeholder {
   }
 
   .excel-list {
-    padding: 0 0 0 250px;
+    padding: 0 0 0 230px;
+  }
+
+  .excel-list li {
+    line-height: 25px;
   }
 
   .excel-list li:before {
@@ -1961,7 +1977,7 @@ input::-webkit-input-placeholder {
   }
 
   .posts-txt {
-    width: 80%;
+    width: 88%;
   }
 
   .logos {
