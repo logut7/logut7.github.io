@@ -5,9 +5,10 @@
 
 @font-face {
   font-family: montserrat-light;
-  src:  url("../fonts/montserrat-light.otf"),
-        url("../fonts/montserrat-light.ttf");
-font-weight: 300;
+  src:  url("montserrat-light.woff2") format('woff2'),
+        url("../fonts/montserrat-light.otf") format('otf'),
+        url("../fonts/montserrat-light.ttf") format('ttf');
+/* font-weight: 300; */
 }
 
 @font-face {
@@ -249,7 +250,7 @@ input::-webkit-input-placeholder {
   width: 100%;
   /* border: 1px solid red; */
   /* margin: 0 auto; */
-  padding: 15% 0 40px 0;
+  padding: 14% 0 0 0;
   justify-content: center;
   align-items: center;
 }
@@ -257,6 +258,7 @@ input::-webkit-input-placeholder {
 .header-bottom h2 {
   font-family: raleway-medium;
   font-size: 36px;
+  font-weight: 500;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -265,6 +267,7 @@ input::-webkit-input-placeholder {
 .header-bottom h1 {
   font-family: raleway-extrabold;
   font-size: 52px;
+  font-weight: 800;
   color: #fff;
   text-align: center;
   margin: 10px 0 0 0;
@@ -276,6 +279,8 @@ input::-webkit-input-placeholder {
   text-align: center;
   font-size: 16px;
   font-family: montserrat-light;
+  font-weight: 300;
+  line-height: 24px;
   width: 580px;
   margin: 16px 0 50px 0;
   position: relative;
@@ -475,6 +480,7 @@ input::-webkit-input-placeholder {
   display: block;
   font-family: raleway-semibold;
   font-size: 30px;
+  font-weight: 600;
   width: 100%;
   text-align: center;
   color: #555;
@@ -578,14 +584,17 @@ input::-webkit-input-placeholder {
 .projects > span {
   font-family: raleway-semibold;
   font-size: 30px;
+  font-weight: 400;
   color: #555;
   width: 100%;
 }
 
 .projects > p {
   text-align: center;
-  width: 32%;
+  width: 36%;
   font-family: monserrat-light;
+  font-weight: 300;
+  line-height: 28px;
   font-size: 16px;
   color: #9e9e9e;
   /* border: 1px solid red; */
@@ -769,7 +778,7 @@ input::-webkit-input-placeholder {
   /* max-width: 1920px; */
   /* width: 100%; */
   height: 100%;
-  filter: brightness(40%);
+  filter: brightness(55%);
 }
 
 .video-wrap {
@@ -799,6 +808,7 @@ input::-webkit-input-placeholder {
 .video-wrap p {
   font-family: montserrat-light;
   font-size: 16px;
+  line-height: 28px;
   color: #fff;
 }
 
