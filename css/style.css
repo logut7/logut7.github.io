@@ -2006,12 +2006,10 @@ input::-webkit-input-placeholder {
   .section-stat {
     padding: 0;
     height: 200px;
-    min-height: 700px;
   }
 
   .stat-wrap {
     width: 100%;
-    flex-wrap: wrap;
     justify-content: center;
 
   }
@@ -2085,10 +2083,14 @@ input::-webkit-input-placeholder {
 
   .section-stat {
     min-height: 700px;
+
+
     padding: 5px;
   }
 
   .stat-wrap {
+    justify-content: center;
+    flex-wrap: wrap;
     width: min-content;
   }
 
