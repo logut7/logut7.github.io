@@ -1904,6 +1904,7 @@ input::-webkit-input-placeholder {
   }
 
   .section-ideas {
+    display: none;
     padding: 5px 0 0;
     min-height: 500px;
     width: 100%;
@@ -1922,7 +1923,8 @@ input::-webkit-input-placeholder {
   .aside-wrap {
     padding: 0;
     flex-wrap: wrap;
-    display: none;
+    /* display: none; */
+    justify-content: center;
   }
 
   .aside-wrap-content {
