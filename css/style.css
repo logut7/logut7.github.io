@@ -52,13 +52,11 @@
   width: 100%;
   /* border: 1px solid red; */
   margin: 0 auto;
-  /* background-color: grey; */
 }
 
 .main-header {
   /* min-width: 1232px; */
   height: 1024px;
-  /* border: 1px solid purple; */
   /* margin: 0 auto; */
   background-color: #555556;
   background-image: url(../img/mountain_black.png);
@@ -116,7 +114,6 @@
 
 .logo-link:active .logo-txt {
  color: #998675;
-
 }
 
 .navigation {
@@ -144,7 +141,6 @@
   width: 80%;
   height: 64px;
   padding: 0;
-
 }
 
 .menu-list {
