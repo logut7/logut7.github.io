@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<root_group>
-	<group display_name="All Contacts" ring="" />
-	<group display_name="Blacklist" ring="" />
-</root_group>
-<root_contact>
-	<contact display_name="Test1" office_number="2510" mobile_number="2511" other_number="3610" line="1" ring="" group_id_name="All Contacts" default_photo="" auto_divert="" />
-	<contact display_name="Test2" office_number="3510" mobile_number="3511" other_number="3620" line="2" ring="" group_id_name="Blacklist" default_photo="" auto_divert="" />
-</root_contact>
